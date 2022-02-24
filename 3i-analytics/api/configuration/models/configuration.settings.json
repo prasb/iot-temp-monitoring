@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configurations",
+  "info": {
+    "name": "Configuration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "maxTemp": {
+      "type": "float"
+    },
+    "minTemp": {
+      "type": "float"
+    },
+    "maxHumidity": {
+      "type": "float"
+    },
+    "minHumidity": {
+      "type": "float"
+    },
+    "alertForTemp": {
+      "type": "boolean"
+    },
+    "alertForHumidity": {
+      "type": "boolean"
+    },
+    "notifyEmail": {
+      "type": "email"
+    },
+    "alertInterval": {
+      "type": "integer"
+    }
+  }
+}

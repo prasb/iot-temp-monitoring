@@ -1,0 +1,28 @@
+{
+    "routes": [
+        {
+            "method": "POST",
+            "path": "/es/aggs",
+            "handler": "aggs.aggs",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/es",
+            "handler": "aggs.index",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/es/reports",
+            "handler": "aggs.reports",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}

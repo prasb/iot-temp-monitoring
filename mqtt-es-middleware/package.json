@@ -1,0 +1,25 @@
+{
+  "name": "mqtt-middleware",
+  "version": "1.0.0",
+  "description": "Middleware for mqtt and elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Fizan Nagarchi <nagarchifizan@outlook.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.16.0",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "mqtt": "^4.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}

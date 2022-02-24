@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mail_settings",
+  "info": {
+    "name": "MailSettings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "host": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "port": {
+      "type": "integer"
+    },
+    "autoTLS": {
+      "type": "boolean"
+    },
+    "authentication": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

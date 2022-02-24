@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mail-settings",
+      "handler": "mail-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mail-settings/count",
+      "handler": "mail-settings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mail-settings/:id",
+      "handler": "mail-settings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mail-settings",
+      "handler": "mail-settings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mail-settings/:id",
+      "handler": "mail-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mail-settings/:id",
+      "handler": "mail-settings.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mail-settings/sendEmail",
+      "handler": "mail-settings.sendEmail",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

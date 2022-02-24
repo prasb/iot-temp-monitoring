@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+           "method": "POST",
+           "path": "/password",
+           "handler": "password.index",
+           "config": {
+               "policies": ["plugins::users-permissions.isAuthenticated"]
+           }
+        }
+    ]
+} 

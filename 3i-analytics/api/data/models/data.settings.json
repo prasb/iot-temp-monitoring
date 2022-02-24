@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data",
+  "info": {
+    "name": "data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "pv01": {
+      "type": "string"
+    },
+    "pv02": {
+      "type": "string"
+    },
+    "tm": {
+      "type": "string"
+    },
+    "loc": {
+      "type": "string"
+    },
+    "rssi": {
+      "type": "string"
+    }
+  }
+}
