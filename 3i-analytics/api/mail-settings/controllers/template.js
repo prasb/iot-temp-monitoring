@@ -127,7 +127,7 @@ module.exports = (ts, msg, temp, humidity) => `
                                             <tbody>
                                               <tr>
                                                 <td style="width:129px;">
-                                                  <img alt="plus-email-template" height="auto" src="https://i.ibb.co/z7Pn631/Whats-App-Image-2021-12-28-at-5-01-00-PM.jpg" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="129">
+                                                  
                                                 </td>
                                               </tr>
                                             </tbody>
